@@ -62,13 +62,14 @@
     "mobileRightColumn": 32,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.890625,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onDataPointClick"}],
     "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "fontFamily"}
     ],
+    "onDataPointClick": "{{navigateTo('https://www.google.co.in', {}, 'NEW_WINDOW');}}",
     "flexVerticalAlignment": "start",
     "key": "wseogpaxx2",
     "isDeprecated": false,
@@ -84,7 +85,7 @@
     "isLoading": false,
     "mobileTopRow": 14,
     "responsiveBehavior": "fill",
-    "showLabels": false,
+    "showLabels": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 8
 }
