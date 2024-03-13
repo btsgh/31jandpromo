@@ -11,15 +11,15 @@
         "parent",
         "group"
     ],
-    "topRow": 32,
-    "bottomRow": 73,
+    "topRow": 68,
+    "bottomRow": 109,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
     "animateLoading": true,
     "parentColumnSpace": 11.2587890625,
-    "leftColumn": 3,
+    "leftColumn": 13,
     "children": [{
         "rightColumn": 720.5625,
         "widgetName": "Canvas1",
@@ -63,8 +63,8 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 32,
+    "originalTopRow": 68,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 73,
+    "originalBottomRow": 109,
     "minDynamicHeight": 10
 }

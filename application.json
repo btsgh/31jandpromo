@@ -75,6 +75,14 @@
     {
       "id": "Twilio",
       "isDefault": false
+    },
+    {
+      "id": "GsheetsGAC",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
