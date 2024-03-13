@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 5,
-    "bottomRow": 9,
+    "topRow": 61,
+    "bottomRow": 65,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.890625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 21,
+    "leftColumn": 27,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "www.google.co.in",
     "key": "2qthev87mn",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 43,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0kdub94jwc",
