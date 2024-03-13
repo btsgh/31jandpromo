@@ -69,7 +69,7 @@
         {"key": "boxShadow"},
         {"key": "fontFamily"}
     ],
-    "onDataPointClick": "{{navigateTo('https://www.google.co.in', {}, 'NEW_WINDOW');}}",
+    "onDataPointClick": "{{navigateTo('https://' + Text1.text, {}, 'NEW_WINDOW').then(() => {\n  showAlert('Success!', 'success');\n}).catch(() => {\n  showAlert('Failed!', 'error');\n});}}",
     "flexVerticalAlignment": "start",
     "key": "wseogpaxx2",
     "isDeprecated": false,
