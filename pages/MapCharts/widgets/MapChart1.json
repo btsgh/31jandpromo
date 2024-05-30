@@ -1,91 +1,103 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 46,
-    "widgetName": "MapChart1",
-    "data": [
-        {
-            "id": "NA",
-            "value": ".82"
-        },
-        {
-            "id": "SA",
-            "value": "2.04"
-        },
-        {
-            "id": "AS",
-            "value": "1.78"
-        },
-        {
-            "id": "EU",
-            "value": ".40"
-        },
-        {
-            "id": "AF",
-            "value": "2.58"
-        },
-        {
-            "id": "AU",
-            "value": "1.30"
-        }
-    ],
-    "colorRange": [
-        {
-            "minValue": 0.5,
-            "code": "#FFD74D",
-            "maxValue": 1
-        },
-        {
-            "minValue": 1,
-            "code": "#FB8C00",
-            "maxValue": 2
-        },
-        {
-            "minValue": 2,
-            "code": "#E65100",
-            "maxValue": 3
-        }
-    ],
-    "isCanvas": false,
-    "displayName": "Map Chart",
-    "iconSVG": "https://release-appcdn.appsmith.com/static/media/icon.8676a101f7a7b525c93961a5fc154938.svg",
-    "searchTags": [
-        "graph",
-        "visuals",
-        "visualisations"
-    ],
-    "topRow": 14,
-    "bottomRow": 46,
-    "parentRowSpace": 10,
-    "type": "MAP_CHART_WIDGET",
-    "hideCard": false,
-    "mapTitle": "Global Pop",
-    "mobileRightColumn": 32,
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 11.890625,
-    "dynamicTriggerPathList": [{"key": "onDataPointClick"}],
-    "leftColumn": 8,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "fontFamily"}
-    ],
-    "onDataPointClick": "{{navigateTo('https://' + Text1.text, {}, 'NEW_WINDOW').then(() => {\n  showAlert('Success!', 'success');\n}).catch(() => {\n  showAlert('Failed!', 'error');\n});}}",
-    "flexVerticalAlignment": "start",
-    "key": "wseogpaxx2",
-    "isDeprecated": false,
-    "rightColumn": 57,
-    "widgetId": "q7hoqtzdkx",
-    "mapType": "WORLD",
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Display"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 14,
-    "responsiveBehavior": "fill",
-    "showLabels": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 8
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 46,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "colorRange": [
+    {
+      "code": "#FFD74D",
+      "maxValue": 1,
+      "minValue": 0.5
+    },
+    {
+      "code": "#FB8C00",
+      "maxValue": 2,
+      "minValue": 1
+    },
+    {
+      "code": "#E65100",
+      "maxValue": 3,
+      "minValue": 2
+    }
+  ],
+  "data": [
+    {
+      "id": "NA",
+      "value": ".82"
+    },
+    {
+      "id": "SA",
+      "value": "2.04"
+    },
+    {
+      "id": "AS",
+      "value": "1.78"
+    },
+    {
+      "id": "EU",
+      "value": ".40"
+    },
+    {
+      "id": "AF",
+      "value": "2.58"
+    },
+    {
+      "id": "AU",
+      "value": "1.30"
+    }
+  ],
+  "displayName": "Map Chart",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDataPointClick"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "hideCard": false,
+  "iconSVG": "https://release-appcdn.appsmith.com/static/media/icon.8676a101f7a7b525c93961a5fc154938.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "wseogpaxx2",
+  "leftColumn": 8,
+  "mapTitle": "Global Pop",
+  "mapType": "WORLD",
+  "minWidth": 450,
+  "mobileBottomRow": 46,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 14,
+  "onDataPointClick": "{{navigateTo('https://' + Text1.text, {}, 'NEW_WINDOW').then(() => {\n  showAlert('Success!', 'success');\n}).catch(() => {\n  showAlert('Failed!', 'error');\n});}}",
+  "parentColumnSpace": 11.890625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 57,
+  "searchTags": [
+    "graph",
+    "visuals",
+    "visualisations"
+  ],
+  "showLabels": true,
+  "tags": [
+    "Display"
+  ],
+  "topRow": 14,
+  "type": "MAP_CHART_WIDGET",
+  "version": 1,
+  "widgetId": "q7hoqtzdkx",
+  "widgetName": "MapChart1"
 }
